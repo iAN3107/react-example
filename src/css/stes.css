@@ -1,0 +1,77 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+main, html{
+    color: #424242;
+    font-family: Roboto, sans-serif;
+}
+
+.containerInteiro{
+height: 50vh;
+width: 100%;
+background-color: #0099ff;
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.h1Topo{
+    color:white;
+    font-size: 80px;
+    font-weight: 900;
+    line-height: 60px;
+}
+
+.pTopo{
+    font-size: 30px;
+    color:white;
+}
+
+.pCorpo{
+    color: #424242;
+}
+
+.container{
+    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.introducaoh1{
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+.introducaop{
+    font-size: 22px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+footer{
+    height: 50px;
+    background-color: #424242;
+    color:white;
+    margin-top: 50px;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.teste{
+    height: 30px;
+    width: 30px;
+    background-image: url(../imagens/logo192.png);
+    background-size: cover;
+}
